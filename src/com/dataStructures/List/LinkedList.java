@@ -49,13 +49,60 @@ public class LinkedList {
         linkedList.insertAtEnd(temp);
         temp = new ListNode(30);
         linkedList.insertAtBegining(temp);
+        temp = new ListNode(80);
+        linkedList.insertAtBegining(temp);
+        temp = new ListNode(90);
+        linkedList.insertAtBegining(temp);
+        temp = new ListNode(60);
+        linkedList.insertAtEnd(temp);
         linkedList.insert(40,1);
 //        linkedList.removeFromBegining();
 //        linkedList.removeFromEnd();
 //        linkedList.remove(40);
-        linkedList.getposition(30);
+//        linkedList.getposition(30);
 //        linkedList.clearList();
-        linkedList.printLinkedlist();
+        linkedList.get(3);
+        linkedList.printLinkedlist(linkedList.head);
+        System.out.println("----------------");
+        linkedList.reverse();
+        linkedList.printLinkedlist(linkedList.head);
+    }
+
+    private int get(int index) {
+        if(index<0){
+            index = 0;
+        }else if(index>=length){
+            index = length-1;
+        }
+        ListNode temp = head;
+        int val = 0,i=0;
+        while(i != index){
+            temp = temp.getNext();
+            i++;
+        }
+        val = temp.getData();
+        return val;
+    }
+
+    private void reverse() {
+        ListNode temp = head;
+        ListNode prev;
+        boolean flag = true;
+        while (head != null){
+            prev = temp;
+            if(flag){
+                temp = temp.getNext();
+                head = temp.getNext();
+                temp.setNext(prev);
+                prev.setNext(null);
+                flag = false;
+            }else {
+                temp = head;
+                head = temp.getNext();
+                temp.setNext(prev);
+            }
+        }
+        head = temp;
     }
 
     private void clearList() {
@@ -168,7 +215,7 @@ public class LinkedList {
         length++;
     }
 
-    public void printLinkedlist() {
+    public void printLinkedlist(ListNode head) {
         ListNode temp = head;
         while (temp !=null){
             System.out.println(temp.getData());

@@ -1,16 +1,14 @@
-package sorts;
+package com.algorithms.sorts;
 
-public class SelectionSort {
+public class BubbleSort {
     public static void main(String[] args) {
-        int[] array = {20,35,-15,7,55,1,-22};
+       int[] array = {20,35,-15,7,55,1,-22};
         for (int lastUnsortedIndex = array.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
-            int largest = 0;
-            for (int firstUnsortedIndex = 0; firstUnsortedIndex <= lastUnsortedIndex; firstUnsortedIndex++) {
-                if(array[firstUnsortedIndex]>array[largest]){
-                    largest = firstUnsortedIndex;
+            for (int firstUnsortedIndex = 0; firstUnsortedIndex < lastUnsortedIndex; firstUnsortedIndex++) {
+                if(array[firstUnsortedIndex]>array[firstUnsortedIndex + 1]){
+                    swap(array,firstUnsortedIndex,firstUnsortedIndex+1);
                 }
             }
-            swap(array,largest,lastUnsortedIndex);
         }
         for (int i : array) {
             System.out.println(i);

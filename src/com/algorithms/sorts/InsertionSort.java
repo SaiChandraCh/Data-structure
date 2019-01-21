@@ -1,4 +1,4 @@
-package sorts;
+package com.algorithms.sorts;
 
 public class InsertionSort {
     public static void main(String[] args) {

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e85f641e-88bc-4b6c-a05e-2f0de5b679a8" name="Default Changelist" comment="" />
+    <list default="true" id="e85f641e-88bc-4b6c-a05e-2f0de5b679a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/List/exercise/Adding2LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/List/exercise/StackUsinList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/linkedlist/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/linkedlist/LinkedListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/linkedlist/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/List/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/List/LinkedList.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,37 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/List/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
-              <folding>
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/List/DoublyLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="133" column="23" lean-forward="true" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/List/CircularSinglyLinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/List/exercise/Merging2LinkedLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-              <folding>
-                <element signature="e#102#103#0" expanded="true" />
-                <element signature="e#133#134#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -59,7 +42,6 @@
     <findStrings>
       <find>i</find>
       <find>List</find>
-      <find>insert</find>
       <find>last</find>
       <find>temp</find>
       <find>inserAtEnding</find>
@@ -68,16 +50,20 @@
       <find>System</find>
       <find>head</find>
       <find>DLNode</find>
+      <find>insert</find>
     </findStrings>
     <replaceStrings>
       <replace>lastUnsortedIndex</replace>
       <replace>LinkedList</replace>
-      <replace>insertAtBegining</replace>
       <replace>tail</replace>
       <replace>head</replace>
       <replace>insertAtStart</replace>
       <replace>DLLNode</replace>
+      <replace>insertAtBegining</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -95,11 +81,15 @@
         <option value="$PROJECT_DIR$/src/sorts/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/List/Node.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/arrays/Node.java" />
-        <option value="$PROJECT_DIR$/src/com/dataStructures/List/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/List/SimpleDoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/List/DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/List/CircularLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/List/CircularSinglyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/List/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/List/Adding2LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/List/problems/StackUsinList.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/List/exercise/Adding2LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/List/exercise/Merging2LinkedLists.java" />
       </list>
     </option>
   </component>
@@ -109,6 +99,7 @@
     <option name="width" value="917" />
     <option name="height" value="789" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -126,12 +117,6 @@
               <item name="datasturctures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="datasturctures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datasturctures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dataStructures" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -141,7 +126,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546767986234" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548047323072" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -155,13 +140,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CircularSinglyLinkedList">
+  <component name="RunManager" selected="Application.Merging2LinkedLists">
+    <configuration name="Adding2LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dataStructures.List.exercise.Adding2LinkedList" />
+      <module name="datasturctures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dataStructures.List.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dataStructures.List.CircularLinkedList" />
       <module name="datasturctures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dataStructures.List.*" />
+          <option name="PATTERN" value="com.dataStructures.List.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,7 +172,7 @@
       <module name="datasturctures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dataStructures.List.*" />
+          <option name="PATTERN" value="com.dataStructures.List.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dataStructures.List.DoublyLinkedList" />
+    <configuration name="Merging2LinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dataStructures.List.exercise.Merging2LinkedLists" />
       <module name="datasturctures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dataStructures.arrays.*" />
+          <option name="PATTERN" value="com.dataStructures.List.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,25 +193,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dataStructures.List.LinkedList" />
+    <configuration name="StackUsinList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dataStructures.List.exercise.StackUsinList" />
       <module name="datasturctures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dataStructures.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleDoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dataStructures.List.SimpleDoublyLinkedList" />
-      <module name="datasturctures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dataStructures.List.*" />
+          <option name="PATTERN" value="com.dataStructures.List.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,19 +207,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DoublyLinkedList" />
-      <item itemvalue="Application.LinkedList" />
-      <item itemvalue="Application.SimpleDoublyLinkedList" />
+      <item itemvalue="Application.Adding2LinkedList" />
       <item itemvalue="Application.CircularLinkedList" />
       <item itemvalue="Application.CircularSinglyLinkedList" />
+      <item itemvalue="Application.Merging2LinkedLists" />
+      <item itemvalue="Application.StackUsinList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Merging2LinkedLists" />
+        <item itemvalue="Application.StackUsinList" />
+        <item itemvalue="Application.Adding2LinkedList" />
         <item itemvalue="Application.CircularSinglyLinkedList" />
         <item itemvalue="Application.CircularLinkedList" />
-        <item itemvalue="Application.DoublyLinkedList" />
-        <item itemvalue="Application.SimpleDoublyLinkedList" />
-        <item itemvalue="Application.LinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +239,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18705036" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20475927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -263,14 +248,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297414" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978448" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3297414" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32937366" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32937366" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3297414" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -322,30 +307,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dataStructures/arrays/Node.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/List/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
-          <folding>
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/List/DoublyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="77" column="14" lean-forward="true" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
-          <folding>
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dataStructures/List/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="477">
@@ -353,14 +314,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/List/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="105" selection-start-line="87" selection-end-line="105" />
+          <folding>
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/List/exercise/Adding2LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/List/exercise/StackUsinList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dataStructures/List/CircularSinglyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
-            <element signature="e#102#103#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/List/exercise/Merging2LinkedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
