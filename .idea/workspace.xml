@@ -2,16 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e85f641e-88bc-4b6c-a05e-2f0de5b679a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/stack/LinkedListStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/list/CircularLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/list/exercise/EndinginLoopOrNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/list/exercise/NthNodefromEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/queue/CircularArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/queue/FixedCircularArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/queue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/queue/QueueLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/stack/DynamicArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/MergeList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/MergeList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/Merging2LinkedLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/Merging2LinkedLists.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/sorts/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/sorts/InsertionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/sorts/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/sorts/SelectionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/sorts/ShellSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/algorithms/backtracking/Backtracking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasturctures/com/algorithms/backtracking/Backtracking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/algorithms/sorts/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasturctures/com/algorithms/sorts/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/CLLNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/CircularSinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/DLLNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/DoublyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/AddList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/AddNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/Adding2LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/MergeList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/MergeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/Merging2LinkedLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/StackList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/StackListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/StackUsinList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/stack/LinkedListStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/stack/LinkedListStack.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/algorithms/backtracking/Backtracking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/backtracking/Backtracking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithms/sorts/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/sorts/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/List/CircularSinglyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/List/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/list/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/List/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/list/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/List/exercise/Adding2LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/list/exercise/Adding2LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/List/exercise/Merging2LinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/list/exercise/Merging2LinkedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/List/exercise/StackUsinList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/list/exercise/StackUsinList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/stack/LinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/stack/LinkedListStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/stack/SimpleArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/stack/SimpleArrayStack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,35 +51,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/algorithms/backtracking/Backtracking.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/queue/FixedCircularArrayQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+            <state relative-caret-position="450">
+              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/stack/LinkedListStack.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/queue/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-94">
-              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-              <folding>
-                <element signature="e#1366#1367#0" expanded="true" />
-                <element signature="e#1394#1395#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/stack/SimpleArrayStack.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/queue/CircularArrayQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            <state relative-caret-position="210">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,6 +108,8 @@
       <find>DLNode</find>
       <find>insert</find>
       <find>iteration</find>
+      <find>CircularSinglyLinkedList</find>
+      <find>circularSinglyLinkedList</find>
     </findStrings>
     <replaceStrings>
       <replace>lastUnsortedIndex</replace>
@@ -89,6 +120,8 @@
       <replace>DLLNode</replace>
       <replace>insertAtBegining</replace>
       <replace>iterationCount</replace>
+      <replace>CircularDoublyLinkedList</replace>
+      <replace>circularDoublyLinkedList</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -112,24 +145,35 @@
         <option value="$PROJECT_DIR$/src/com/dataStructures/arrays/Node.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/List/SimpleDoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/List/DoublyLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/com/dataStructures/List/CircularLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/com/dataStructures/List/CircularSinglyLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/com/dataStructures/List/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/List/Adding2LinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/List/problems/StackUsinList.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/List/exercise/Adding2LinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/List/exercise/Merging2LinkedLists.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/List/exercise/NthNodefromEnd.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/List/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/List/CircularSinglyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/algorithms/backtracking/Backtracking.java" />
-        <option value="$PROJECT_DIR$/src/com/dataStructures/stack/SimpleArrayStack.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/List/exercise/EndinginLoopOrNull.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/List/CircularLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/sorts/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/list/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/stack/LinkedListStack.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/stack/SimpleArrayStack.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/stack/DynamicArrayStack.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/queue/QueueLL.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/queue/FixedArrayQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/trees/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/queue/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/queue/CircularArrayQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/queue/FixedCircularArrayQueue.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="340" />
-    <option name="y" value="234" />
-    <option name="width" value="917" />
-    <option name="height" value="789" />
+    <option name="x" value="993" />
+    <option name="y" value="25" />
+    <option name="width" value="927" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -137,7 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,6 +205,13 @@
               <item name="datasturctures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datasturctures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datasturctures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="dataStructures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -169,17 +220,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="dataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548068559551" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549358999186" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -193,13 +244,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedListStack">
-    <configuration name="Adding2LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dataStructures.List.exercise.Adding2LinkedList" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dataStructures.trees.BinarySearchTree" />
       <module name="datasturctures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dataStructures.List.exercise.*" />
+          <option name="PATTERN" value="com.dataStructures.trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,21 +258,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Backtracking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.backtracking.Backtracking" />
-      <module name="datasturctures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithms.backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dataStructures.stack.LinkedListStack" />
+    <configuration name="DynamicArrayStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dataStructures.stack.DynamicArrayStack" />
       <module name="datasturctures" />
       <extension name="coverage">
         <pattern>
@@ -233,12 +271,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Merging2LinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dataStructures.List.exercise.Merging2LinkedLists" />
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dataStructures.list.LinkedList" />
       <module name="datasturctures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dataStructures.List.exercise.*" />
+          <option name="PATTERN" value="com.dataStructures.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,12 +284,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackUsinList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dataStructures.List.exercise.StackUsinList" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dataStructures.queue.Main" />
       <module name="datasturctures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dataStructures.List.exercise.*" />
+          <option name="PATTERN" value="com.dataStructures.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dataStructures.queue.QueueLL" />
+      <module name="datasturctures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dataStructures.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,19 +311,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Adding2LinkedList" />
-      <item itemvalue="Application.Merging2LinkedLists" />
-      <item itemvalue="Application.StackUsinList" />
-      <item itemvalue="Application.Backtracking" />
-      <item itemvalue="Application.LinkedListStack" />
+      <item itemvalue="Application.BinarySearchTree" />
+      <item itemvalue="Application.DynamicArrayStack" />
+      <item itemvalue="Application.LinkedList" />
+      <item itemvalue="Application.QueueLL" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkedListStack" />
-        <item itemvalue="Application.Backtracking" />
-        <item itemvalue="Application.Merging2LinkedLists" />
-        <item itemvalue="Application.StackUsinList" />
-        <item itemvalue="Application.Adding2LinkedList" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BinarySearchTree" />
+        <item itemvalue="Application.QueueLL" />
+        <item itemvalue="Application.DynamicArrayStack" />
+        <item itemvalue="Application.LinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -291,8 +342,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20697288" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23741007" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -300,16 +352,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978448" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33909288" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32937366" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3297414" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -319,6 +371,36 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/sorts/MergeSort.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/sorts/MergeSort.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/sorts/MergeSort.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="rear" language="JAVA" />
+        <watch expression="front" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/dataStructures/Main.java" />
@@ -352,25 +434,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/List/LinkedListTest.java" />
     <entry file="file://$PROJECT_DIR$/src/List/Node.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/sorts/MergeSort.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/arrays/Node.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/list/exercise/Adding2LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="19" />
+        <state relative-caret-position="150">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/arrays/Node.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/List/DoublyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/list/exercise/StackUsinList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
+        <state relative-caret-position="600">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/list/exercise/Merging2LinkedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/list/exercise/NthNodefromEnd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/List/CircularDoublyLinkedList.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/List/CircularSinglyLinkedList.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/backtracking/Backtracking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/list/exercise/EndinginLoopOrNull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#897#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/sorts/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/list/CircularLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/list/DoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="746">
           <caret line="133" column="23" lean-forward="true" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/List/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/list/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="105" selection-start-line="87" selection-end-line="105" />
+        <state relative-caret-position="245">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
           <folding>
             <element signature="e#548#549#0" expanded="true" />
             <element signature="e#577#578#0" expanded="true" />
@@ -378,62 +514,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/List/exercise/Adding2LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/List/exercise/StackUsinList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/List/CircularSinglyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/List/exercise/Merging2LinkedLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/backtracking/Backtracking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dataStructures/stack/LinkedListStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94">
-          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="e#1366#1367#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dataStructures/stack/SimpleArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="360">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/stack/DynamicArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/queue/QueueLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/queue/FixedCircularArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/queue/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/queue/CircularArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

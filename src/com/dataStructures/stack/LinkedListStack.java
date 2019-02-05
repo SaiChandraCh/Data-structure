@@ -9,8 +9,6 @@ class ListStackNode{
     }
 }
 
-
-
 public class LinkedListStack {
 
     private ListStackNode top = null;
