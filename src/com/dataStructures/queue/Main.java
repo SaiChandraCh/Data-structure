@@ -25,6 +25,12 @@ public class Main {
         queue.dequeue();
         System.out.println("--------------------");
         queue.enqueue(79);
+        queue.enqueue(605);
+        queue.enqueue(19);
+        queue.enqueue(31);
+        queue.enqueue(11);
+        queue.enqueue(105);
+        queue.enqueue(181);
         queue.print();
         queue.peek();
     }

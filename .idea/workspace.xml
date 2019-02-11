@@ -2,44 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e85f641e-88bc-4b6c-a05e-2f0de5b679a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/list/CircularLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/list/exercise/EndinginLoopOrNull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/list/exercise/NthNodefromEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/queue/CircularArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/queue/FixedCircularArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/queue/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/queue/QueueLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/stack/DynamicArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/algorithms/backtracking/Backtracking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasturctures/com/algorithms/backtracking/Backtracking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/algorithms/sorts/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasturctures/com/algorithms/sorts/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/CLLNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/CircularSinglyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/DLLNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/DoublyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/AddList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/AddNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/Adding2LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/MergeList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/MergeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/Merging2LinkedLists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/StackList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/StackListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/List/exercise/StackUsinList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/stack/LinkedListStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/stack/LinkedListStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithms/backtracking/Backtracking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/backtracking/Backtracking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithms/sorts/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/sorts/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/List/CircularSinglyLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/List/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/list/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/List/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/list/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/List/exercise/Adding2LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/list/exercise/Adding2LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/List/exercise/Merging2LinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/list/exercise/Merging2LinkedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/List/exercise/StackUsinList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/list/exercise/StackUsinList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/stack/LinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/stack/LinkedListStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/stack/SimpleArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/stack/SimpleArrayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/queue/FixedCircularArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/queue/FixedCircularArrayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/queue/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/queue/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/trees/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/trees/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/trees/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/trees/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/queue/DynamicCircularArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/queue/DynamicCircularArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/queue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/queue/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/trees/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/BinarySearchTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,37 +22,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/queue/FixedCircularArrayQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-              <folding>
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/queue/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/queue/CircularArrayQueue.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/BinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="146" column="35" lean-forward="true" selection-start-line="146" selection-start-column="35" selection-end-line="146" selection-end-column="35" />
               <folding>
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -99,7 +66,6 @@
       <find>i</find>
       <find>List</find>
       <find>last</find>
-      <find>temp</find>
       <find>inserAtEnding</find>
       <find>length</find>
       <find>Sys</find>
@@ -110,6 +76,7 @@
       <find>iteration</find>
       <find>CircularSinglyLinkedList</find>
       <find>circularSinglyLinkedList</find>
+      <find>temp</find>
     </findStrings>
     <replaceStrings>
       <replace>lastUnsortedIndex</replace>
@@ -122,6 +89,7 @@
       <replace>iterationCount</replace>
       <replace>CircularDoublyLinkedList</replace>
       <replace>circularDoublyLinkedList</replace>
+      <replace>curr</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -162,10 +130,13 @@
         <option value="$PROJECT_DIR$/src/com/dataStructures/stack/DynamicArrayStack.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/queue/QueueLL.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/queue/FixedArrayQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/dataStructures/trees/BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/com/dataStructures/queue/Main.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/queue/CircularArrayQueue.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/queue/FixedCircularArrayQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/queue/DynamicCircularArrayQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/queue/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/trees/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/trees/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/trees/Main.java" />
       </list>
     </option>
   </component>
@@ -182,6 +153,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,17 +192,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="dataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="trees" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549358999186" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549865172239" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -244,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dataStructures.trees.BinarySearchTree" />
       <module name="datasturctures" />
@@ -271,12 +242,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dataStructures.list.LinkedList" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dataStructures.trees.Main" />
       <module name="datasturctures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dataStructures.list.*" />
+          <option name="PATTERN" value="com.dataStructures.trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,17 +284,17 @@
     <list>
       <item itemvalue="Application.BinarySearchTree" />
       <item itemvalue="Application.DynamicArrayStack" />
-      <item itemvalue="Application.LinkedList" />
-      <item itemvalue="Application.QueueLL" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.QueueLL" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.QueueLL" />
         <item itemvalue="Application.DynamicArrayStack" />
-        <item itemvalue="Application.LinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +315,7 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23741007" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15052573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -353,24 +324,52 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33909288" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33909288" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32937366" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32937366" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.24958494" />
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15052573" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33909288" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32937366" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32937366" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32937366" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.24958494" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -397,10 +396,22 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="rear" language="JAVA" />
-        <watch expression="front" language="JAVA" />
+        <watch expression="prev" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>temp</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/dataStructures/Main.java" />
@@ -548,22 +559,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dataStructures/queue/FixedCircularArrayQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        <state relative-caret-position="240">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="e#188#189#0" expanded="true" />
             <element signature="e#207#208#0" expanded="true" />
@@ -571,21 +570,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/queue/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/queue/DynamicCircularArrayQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/queue/CircularArrayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="-420">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
           <folding>
             <element signature="e#180#181#0" expanded="true" />
             <element signature="e#199#200#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/queue/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="146" column="35" lean-forward="true" selection-start-line="146" selection-start-column="35" selection-end-line="146" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
         </state>
       </provider>
     </entry>

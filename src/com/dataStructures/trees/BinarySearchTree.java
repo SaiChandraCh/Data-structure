@@ -1,139 +1,196 @@
 package com.dataStructures.trees;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
-
-class TreeNode{
-    int data;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int data){
-        this.data = data;
-        this.left = null;
-        this.right = null;
-    }
-}
 
 public class BinarySearchTree {
     TreeNode root;
-    public BinarySearchTree() {
-        root = null;
-    }
-
+    int length;
     public void insert(int data){
         TreeNode newNode = new TreeNode(data);
         if(root == null){
             root = newNode;
+            length++;
+            return;
         }else {
-            TreeNode next = root;
-            TreeNode prev = root;
-            while (next != null){
-                prev = next;
-                if(data < next.data){
-                    next = next.left;
-                }else{
-                    next = next.right;
+            TreeNode curr = root;
+            TreeNode prev = null;
+            while (curr != null){
+                prev = curr;
+                if(curr.data<=data){
+                    curr=curr.right;
+                }else if(curr.data > data){
+                    curr=curr.left;
                 }
             }
-        if(data < prev.data){
-            prev.left = newNode;
-        }else{
-            prev.right = newNode;
-        }
+            if(prev.data <= data){
+                prev.right = newNode;
+            }else {
+                prev.left = newNode;
+            }
         }
     }
-
-//    public void insert(int data){
-//        TreeNode newNode = new TreeNode(data);
-//
-//    }
-//  Recursive method
-//    public void inOrder(TreeNode root){
-//        if(root == null)
+//  Recursive
+//    public void preOrder(TreeNode root) {
+//        if(root == null){
 //            return;
-//        else{
-//            inOrder(root.left);
-//            System.out.println(root.data);
-//            inOrder(root.right);
 //        }
+//        System.out.println(root.data);
+//        preOrder(root.left);
+//        preOrder(root.right);
 //    }
 
-//  Iterative method
-    public void inOrder(TreeNode root){
-        ArrayList<Integer> res = new ArrayList<>();
+//  Iterative
+    public void preOrder(TreeNode root) {
         Stack<TreeNode> stack = new Stack<>();
         stack.push(root);
-        TreeNode temp = stack.peek();
-    }
-
-//  Recursive method
-//    public void preOrder(TreeNode root){
-//        if(root == null)
-//            return;
-//        else{
-//            System.out.println(root.data);
-//            preOrder(root.left);
-//            preOrder(root.right);
-//        }
-//    }
-
-//  Iterative method
-//    public void preOrder(TreeNode root) {
-//        ArrayList<Integer> res = new ArrayList<>();
-//        Stack<TreeNode> stack = new Stack<>();
-//        stack.push(root);
-//        while (!stack.isEmpty()){
-//            TreeNode temp = stack.pop();
-//            res.add(temp.data);
-//            if(temp.right != null){
-//                stack.push(temp.right);
-//            }
-//            if(temp.left != null){
-//                stack.push(temp.left);
-//            }
-//        }
-//        for (int a : res) {
-//            System.out.println(a);
-//        }
-//    }
-//    Recursive method
-    public void postOrder(TreeNode root){
-        if(root == null)
-            return;
-        else{
-            postOrder(root.left);
-            postOrder(root.right);
-            System.out.println(root.data);
+        ArrayList<Integer> res = new ArrayList();
+        while (!stack.isEmpty()){
+            TreeNode temp = stack.pop();
+            res.add(temp.data);
+            if(temp.right != null){
+                stack.push(temp.right);
+            }
+            if(temp.left != null){
+                stack.push(temp.left);
+            }
+        }
+        for (int num : res){
+            System.out.println(num);
         }
     }
 
-//  Iterative method
-//    public void postOrder(TreeNode root) {
-//        ArrayList<Integer> res = new ArrayList<>();
-//        Stack<TreeNode> stack = new Stack<>();
-//        stack.push(root);
-//        TreeNode prev = null;
-//        while (!stack.isEmpty()){
-//            TreeNode temp = stack.pop();
-//
-//        }
-//    }
-    public static void main(String[] args) {
-        BinarySearchTree tree = new BinarySearchTree();
-        tree.insert(15);
-        tree.insert(7);
-        tree.insert(2);
-        tree.insert(10);
-        tree.insert(12);
-        tree.insert(18);
-        tree.insert(16);
-        tree.insert(20);
+    public void inOrder(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<>();
+        ArrayList<Integer> res = new ArrayList();
+        TreeNode curr = root;
+        boolean done = false;
+        while (!done){
+            if(curr != null){
+                stack.push(curr);
+                curr = curr.left;
+            }else{
+                if(stack.isEmpty()){
+                    done = true;
+                }else{
+                    curr = stack.pop();
+                    res.add(curr.data);
+                    curr = curr.right;
+                }
 
-        tree.inOrder(tree.root);
-        System.out.println("--------------------------");
-//        tree.preOrder(tree.root);
-//        System.out.println("--------------------------");
-//        tree.postOrder(tree.root);
+            }
+        }
+
+        for (int num : res) {
+            System.out.println(num);
+        }
     }
 
+    public void postOrder(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<>();
+        ArrayList<Integer> res = new ArrayList();
+        stack.push(root);
+        TreeNode curr = null,prev = null;
+        while(!stack.isEmpty()){
+            curr = stack.peek();
+            if(prev == null || prev.left == curr || prev.right == curr){
+                if(curr.left != null){
+                    stack.push(curr.left);
+                }else if(curr.right != null){
+                    stack.push(curr.right);
+                }
+            }else if(curr.left == prev){
+                if(curr.right != null){
+                    stack.push(curr.right);
+                }
+            }else {
+                res.add(curr.data);
+                stack.pop();
+            }
+            prev = curr;
+        }
+
+        for (int num : res) {
+            System.out.println(num);
+        }
+    }
+
+    public void levelOrder(TreeNode root) {
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()){
+            TreeNode curr = queue.remove();
+            System.out.println(curr.data);
+            if(curr.left != null){
+                queue.add(curr.left);
+            }
+            if(curr.right != null){
+                queue.add(curr.right);
+            }
+        }
+    }
+
+    public void delete(int data) {
+        TreeNode temp = root;
+        boolean found = false;
+        while (!found && temp != null){
+            if(data > temp.data){
+                temp = temp.right;
+            }else if(data < temp.data){
+                temp = temp.left;
+            }else{
+                found = true;
+            }
+        }
+        temp.data = max(temp.left);
+        TreeNode prev = temp;
+        TreeNode curr = temp.left;
+        if(curr.left == null){
+            if(curr.right == null){
+                prev.left = null;
+            }
+        }else {
+            while (curr.right != null){
+                prev = curr;
+                curr = curr.right;
+            }
+            if(curr.left == null){
+                prev.right = null;
+            }else {
+                prev.right = curr.left;
+            }
+        }
+    }
+
+    public int min(TreeNode root) {
+        TreeNode temp = root;
+        if(temp.left == null){
+            if(temp.right != null){
+                return temp.right.data;
+            }else {
+                return temp.data;
+            }
+        }
+        while (temp.left != null){
+            temp = temp.left;
+        }
+        return temp.data;
+    }
+
+    public int max(TreeNode root) {
+        TreeNode temp = root;
+        if(temp.right == null){
+            if(temp.left != null){
+                return temp.left.data;
+            }else {
+                return temp.data;
+            }
+        }
+        while (temp.right != null){
+            temp = temp.right;
+        }
+        return temp.data;
+    }
 }
