@@ -1,4 +1,4 @@
-package com.dataStructures.trees;
+package com.dataStructures.trees.BST;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -7,12 +7,10 @@ import java.util.Stack;
 
 public class BinarySearchTree {
     TreeNode root;
-    int length;
     public void insert(int data){
         TreeNode newNode = new TreeNode(data);
         if(root == null){
             root = newNode;
-            length++;
             return;
         }else {
             TreeNode curr = root;

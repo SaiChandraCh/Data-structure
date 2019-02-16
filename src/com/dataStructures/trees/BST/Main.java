@@ -1,4 +1,4 @@
-package com.dataStructures.trees;
+package com.dataStructures.trees.BST;
 
 public class Main {
     public static void main(String[] args) {

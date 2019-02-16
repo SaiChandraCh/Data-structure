@@ -1,4 +1,4 @@
-package com.dataStructures.trees;
+package com.dataStructures.trees.BST;
 
 class TreeNode{
     int data;

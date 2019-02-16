@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e85f641e-88bc-4b6c-a05e-2f0de5b679a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/AVL/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/AVL/AVLTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/AVL/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/queue/FixedCircularArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/queue/FixedCircularArrayQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/queue/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/queue/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/trees/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/trees/BinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/trees/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/trees/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/queue/DynamicCircularArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/queue/DynamicCircularArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/queue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/queue/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/trees/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/trees/BinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/trees/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/trees/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/trees/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/BST/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/trees/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/BST/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/trees/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/BST/TreeNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,20 +22,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/AVL/AVLTreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="105">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/BinarySearchTree.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/AVL/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="146" column="35" lean-forward="true" selection-start-line="146" selection-start-column="35" selection-end-line="146" selection-end-column="35" />
+            <state relative-caret-position="437">
+              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/AVL/AVLTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2520">
+              <caret line="168" column="48" selection-start-line="168" selection-start-column="48" selection-end-line="168" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/TreeNode.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/Heap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -77,6 +86,8 @@
       <find>CircularSinglyLinkedList</find>
       <find>circularSinglyLinkedList</find>
       <find>temp</find>
+      <find>=========</find>
+      <find>Sysy</find>
     </findStrings>
     <replaceStrings>
       <replace>lastUnsortedIndex</replace>
@@ -137,13 +148,17 @@
         <option value="$PROJECT_DIR$/src/com/dataStructures/trees/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/trees/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/trees/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/trees/BST/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/trees/AVL/AVLTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/trees/AVL/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/trees/AVL/AVLTree.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="993" />
+    <option name="x" value="67" />
     <option name="y" value="25" />
-    <option name="width" value="927" />
+    <option name="width" value="1853" />
     <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -152,8 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,10 +211,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549865172239" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550296088835" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -217,11 +232,11 @@
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dataStructures.trees.BinarySearchTree" />
+      <option name="MAIN_CLASS_NAME" value="com.dataStructures.trees.BST.BinarySearchTree" />
       <module name="datasturctures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dataStructures.trees.*" />
+          <option name="PATTERN" value="com.dataStructures.trees.BST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,11 +258,11 @@
       </method>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dataStructures.trees.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.dataStructures.trees.AVL.Main" />
       <module name="datasturctures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dataStructures.trees.*" />
+          <option name="PATTERN" value="com.dataStructures.trees.AVL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,6 +276,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dataStructures.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dataStructures.trees.BST.Main" />
+      <module name="datasturctures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dataStructures.trees.BST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,10 +319,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.QueueLL" />
-        <item itemvalue="Application.DynamicArrayStack" />
       </list>
     </recent_temporary>
   </component>
@@ -313,9 +341,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15052573" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.160487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -324,7 +351,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33909288" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33909288" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,7 +423,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="prev" />
+        <watch expression="root" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -405,6 +432,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>root</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
       <expression>
         <expression-string>temp</expression-string>
@@ -588,27 +622,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/TreeNode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/BST/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/BST/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/BST/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="146" column="35" lean-forward="true" selection-start-line="146" selection-start-column="35" selection-end-line="146" selection-end-column="35" />
+        <state relative-caret-position="270">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/AVL/AVLTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="105">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/AVL/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/AVL/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
+          <caret line="168" column="48" selection-start-line="168" selection-start-column="48" selection-end-line="168" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
