@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e85f641e-88bc-4b6c-a05e-2f0de5b679a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/AVL/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/AVL/AVLTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/AVL/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/Heap/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/Heap/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/BinaryTree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/BinaryTree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/BinaryTree/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/trees/BinarySearchTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/trees/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datasturctures/com/dataStructures/trees/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/trees/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/BST/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/trees/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/BST/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/trees/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dataStructures/trees/BST/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dataStructures/trees/Heap.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,40 +20,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/AVL/AVLTreeNode.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/Heap/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/AVL/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/AVL/AVLTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2520">
-              <caret line="168" column="48" selection-start-line="168" selection-start-column="48" selection-end-line="168" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/Heap.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dataStructures/Heap/MaxHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="345">
+              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+              <folding>
+                <element signature="e#690#691#0" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,9 +65,9 @@
       <find>iteration</find>
       <find>CircularSinglyLinkedList</find>
       <find>circularSinglyLinkedList</find>
-      <find>temp</find>
       <find>=========</find>
       <find>Sysy</find>
+      <find>temp</find>
     </findStrings>
     <replaceStrings>
       <replace>lastUnsortedIndex</replace>
@@ -109,8 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/dataStructures/sorts/SelectionSort.java" />
-        <option value="$PROJECT_DIR$/src/com/dataStructures/sorts/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/sorts/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/sorts/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/List/FindBranchList.java" />
@@ -150,8 +128,18 @@
         <option value="$PROJECT_DIR$/src/com/dataStructures/trees/Main.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/trees/BST/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/trees/AVL/AVLTreeNode.java" />
-        <option value="$PROJECT_DIR$/src/com/dataStructures/trees/AVL/Main.java" />
         <option value="$PROJECT_DIR$/src/com/dataStructures/trees/AVL/AVLTree.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/trees/AVL/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/trees/Heap/HeapNode.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/trees/Heap/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/trees/Heap/MinHeap.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/trees/BinaryTree/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/trees/BinaryTree/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/trees/BinaryTree/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/Heap/HeapNode.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/Heap/MinHeap.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/Heap/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/dataStructures/Heap/MaxHeap.java" />
       </list>
     </option>
   </component>
@@ -167,6 +155,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,24 +189,14 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="dataStructures" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="datasturctures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datasturctures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="dataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="trees" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550296088835" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550568744718" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -230,26 +210,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dataStructures.trees.BST.BinarySearchTree" />
       <module name="datasturctures" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dataStructures.trees.BST.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DynamicArrayStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dataStructures.stack.DynamicArrayStack" />
-      <module name="datasturctures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dataStructures.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,12 +237,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dataStructures.Heap.Main" />
+      <module name="datasturctures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dataStructures.Heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dataStructures.queue.Main" />
       <module name="datasturctures" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dataStructures.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dataStructures.Heap.Main" />
+      <module name="datasturctures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dataStructures.Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -311,18 +304,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.BinarySearchTree" />
-      <item itemvalue="Application.DynamicArrayStack" />
+      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.QueueLL" />
-      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BinarySearchTree" />
-        <item itemvalue="Application.QueueLL" />
       </list>
     </recent_temporary>
   </component>
@@ -341,8 +334,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.160487" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16546762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -351,7 +345,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33909288" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33909288" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -421,11 +415,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="root" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -433,6 +422,21 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>heap[i]&lt;Integer.max(heap[2*i+1],heap[2*i+2])</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>2*(i+2) &lt; size</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Integer.max(heap[2*i+1],heap[2*i+2])</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>root</expression-string>
         <language-id>JAVA</language-id>
@@ -646,6 +650,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/Heap.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/AVL/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/AVL/AVLTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -653,16 +665,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/AVL/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/AVL/AVLTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
+        <state relative-caret-position="2471">
           <caret line="168" column="48" selection-start-line="168" selection-start-column="48" selection-end-line="168" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -670,10 +675,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/Heap.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/BinaryTree.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/BinaryTree/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="120">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/BinaryTree/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/trees/BinaryTree/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/Heap/HeapNode.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/Heap/Heap.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/Heap/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dataStructures/Heap/MaxHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding>
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
